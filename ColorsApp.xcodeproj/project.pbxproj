@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		EDADE5D329670D8B005C93F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDADE5D229670D8B005C93F0 /* AppDelegate.swift */; };
 		EDADE5D529670D8B005C93F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDADE5D429670D8B005C93F0 /* SceneDelegate.swift */; };
-		EDADE5D729670D8B005C93F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDADE5D629670D8B005C93F0 /* ViewController.swift */; };
 		EDADE5DA29670D8B005C93F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDADE5D829670D8B005C93F0 /* Main.storyboard */; };
 		EDADE5DC29670D8D005C93F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDADE5DB29670D8D005C93F0 /* Assets.xcassets */; };
 		EDADE5DF29670D8D005C93F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDADE5DD29670D8D005C93F0 /* LaunchScreen.storyboard */; };
+		EDADE5E729670DFD005C93F0 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDADE5E629670DFD005C93F0 /* ColorsViewController.swift */; };
+		EDADE5E929670E07005C93F0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDADE5E829670E07005C93F0 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EDADE5CF29670D8B005C93F0 /* ColorsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDADE5D229670D8B005C93F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDADE5D429670D8B005C93F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDADE5D629670D8B005C93F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDADE5D929670D8B005C93F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDADE5DB29670D8D005C93F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDADE5DE29670D8D005C93F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDADE5E029670D8D005C93F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDADE5E629670DFD005C93F0 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		EDADE5E829670E07005C93F0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				EDADE5D229670D8B005C93F0 /* AppDelegate.swift */,
 				EDADE5D429670D8B005C93F0 /* SceneDelegate.swift */,
-				EDADE5D629670D8B005C93F0 /* ViewController.swift */,
+				EDADE5E629670DFD005C93F0 /* ColorsViewController.swift */,
+				EDADE5E829670E07005C93F0 /* DetailsViewController.swift */,
 				EDADE5D829670D8B005C93F0 /* Main.storyboard */,
 				EDADE5DB29670D8D005C93F0 /* Assets.xcassets */,
 				EDADE5DD29670D8D005C93F0 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDADE5D729670D8B005C93F0 /* ViewController.swift in Sources */,
 				EDADE5D329670D8B005C93F0 /* AppDelegate.swift in Sources */,
+				EDADE5E729670DFD005C93F0 /* ColorsViewController.swift in Sources */,
 				EDADE5D529670D8B005C93F0 /* SceneDelegate.swift in Sources */,
+				EDADE5E929670E07005C93F0 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
